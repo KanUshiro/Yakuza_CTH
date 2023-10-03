@@ -8,7 +8,9 @@ Thanks to SutandoTsukai181 for PyBinaryReader (already packed inside the tool).
 Additional thanks to Evie.
 
 Since I currently do not have a lot of time for this, I will only conditionally consider working on the tool:
+
 **I will not respond to any general questions** about how to use it or topology. Be aware the format is complex to work with.
+
 If you are certain you've found a bug with the tool itself, you can open an issue but please make it detailed.
 
 My vertex-sorting algorithm is flawed and I do not have the level of math required to make a better one.
