@@ -44,7 +44,10 @@ Tool options:
     -> imported CTH armatures don't work with GMT plugin (bug)
     -> HCB Blender collision simulation inaccurate (tool's fault)
 
+___________________
+
 Faces buffer: (n, n+1, n+row, n+row+1) * row * column
+
 Example of vertices sorted in the right order if *row = 6* and *column = 4* (-> expected vertices: 24):
 
 0 6 12 18
