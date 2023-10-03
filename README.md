@@ -44,11 +44,17 @@ Tool options:
 
 Faces buffer: (n, n+1, n+row, n+row+1) * row * column
 Example of vertices sorted in the right order if *row = 6* and *column = 4* (-> expected vertices: 24):
+
 0 6 12 18
+
 1 7 13 19
+
 2 8 14 20
+
 3 9 15 21
+
 4 10 16 22
+
 5 11 17 23
 
 Autosort picks (row) amount of what it sees as the highest vertices, then tries to follow the edges to trace the mesh.
