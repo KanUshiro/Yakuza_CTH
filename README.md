@@ -62,7 +62,7 @@ Example of vertices sorted in the right order if *row = 6* and *column = 4* (-> 
 
 5 11 17 23
 
-Autosort picks (row) amount of what it sees as the highest vertices, then tries to follow the edges to trace the mesh.
+Autosort picks (column) amount of what it sees as the highest vertices, then tries to follow the edges to trace the mesh.
 It will be unable to properly write the mesh if it doesn't pick the right starting vertices. This is the tool's fault and not the format's fault.
 In this case you can either sort them manually or try to make the geometry less curvy.
 
