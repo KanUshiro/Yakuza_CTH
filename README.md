@@ -28,9 +28,9 @@ CTH Cloth Physics format overview:
 - Typical weights (attached to animated armature)
 - Per-vertex physics slider (translated in blender by center/root bone weights)
 - Stiffness (general physics value for the whole mesh)
-- (Row) amount of normal/tangent
+- (Column) amount of normal/tangent
 - Simplified armature from its gmd (animation weights)
-- Simplified yakuza material
+- Simplified yakuza material (**one** per cth)
 - Faces/edges: **none** (quad-like)
 - Collision: vertex-based CTH, colliding with HCB object
 - "Closed mesh": closed = skirts, etc. not closed = bottom of jackets, etc.
