@@ -73,3 +73,9 @@ Use quads for better looking/more controlled results; it will always turn it int
 Closest explanation to the model format I've found (we are in quads, not in tris, though): https://en.wikipedia.org/wiki/Triangle_strip
 
 Good luck...
+
+Mandatory shape object: https://docs.blender.org/manual/en/2.93/modeling/geometry_nodes/mesh_primitives/plane.html
+
+You can curve it and subdivide it as long as the total amount of vertices is the area of a rectangle. Like a grid. (row * column)
+
+HCB: Very dependent on the chosen armature. Size of collision = head/tail radius. Parent bone = "Bone Constraint" in the bone settings. The blender bone name in hcb doesn't matter.
