@@ -70,7 +70,7 @@ def HCB_Write_Imp_Data(filename, filedir, r):
         (BX1, BY1, BZ1) = armature_hook.bones[bonename].head_local
         (X1,Y1,Z1) = (-X1 + BX1, Z1 + BY1, Y1 + BZ1)
         
-        bone.new(bonename)
+        bone.new("Collision_Object")
         
         boneprops = bone[i].hcb_bone_prop_grp
 
