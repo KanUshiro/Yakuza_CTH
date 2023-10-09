@@ -18,6 +18,8 @@ Unless someone gives me a better one for whatever reason, do not expect any impr
 
 The HCB part is in a very raw state and globally untested, including the UI
 
+Mesh grid requirement: https://i.imgur.com/q3uuLXs.png
+
 ___________________
 
 
